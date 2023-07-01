@@ -73,7 +73,7 @@ app.put('/id/:id', (req, res) =>{
     const nuevaFruta = req.body;
     BD.push(nuevaFruta); 
     guardarFrutas(BD)
-    res.status(201).send("Fruta agregada.")
+    res.status(201).send("Fruta agregada")
   }
 });
 
